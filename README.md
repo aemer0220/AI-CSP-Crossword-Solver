@@ -1,10 +1,8 @@
 # Crossword-Solver
 ## Alexandra Emerson
 This program reads in two text files: One is a dictionary containing a list of allowable words (variables) for the puzzle, and the other is a text file descirbing the structure of the puzzle matrix.
-The program then formulates the puzzle into a Constraint Satisfaction Problem, and finds a solution (if one exists) to the crossword, or returns a failure if there is not a solution.
+The program then formulates the puzzle into a Constraint Satisfaction Problem, and finds a solution (if one exists) to the crossword, or returns a failure if there is not a solution. The algorithm uses the backtracking search algorithm.
 
-## What's Working
-Currently only the basic backtracking search with static variable and value ordering is working. I (unfortunately) ran out of time to implement the remaining backtracking improvement strategies. The MRV, DEG, and MEV+DEG variable ordering strategies are implemented, but I don't think they are working properly.
 
 ### How to run from the Command Prompt (terminal)
 
